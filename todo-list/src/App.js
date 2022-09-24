@@ -1,7 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Botao from './Botao';
-import { renderMatches } from 'react-router-dom';
 import React from 'react';
 
 
@@ -12,6 +11,10 @@ class Numero extends React.Component{
     this.state = {
       count: 0
     }
+  }
+
+  componentDidUpdate(){
+    document.title = `Clicou ${this.state.count} vezes`
   }
 
   render (){
