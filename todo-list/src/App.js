@@ -1,6 +1,6 @@
 import './App.css';
-import Botao from './Botao';
-import React, {  useState } from 'react';
+import React, { useState } from 'react';
+import FormularioTarefa from './FormulatioTarefa';
 
 
 
@@ -9,14 +9,7 @@ function Numero(){
 
   return(
     <div className='App'>
-    <ul>
-    {
-      tarefas.map(
-        (tarefa, key) => <li key={key}>{tarefa}</li>
-      )
-    }
-    </ul>
-    <Botao titulo='Adicionar tarefa' onClickHandler={() => setTarefas([...tarefas, 'dar banho no cachorro'])}></Botao>
+    <FormularioTarefa onTarefaAdicionada={() => setTarefas([...tarefas, 'lavar roupa'])}></FormularioTarefa>
     </div>
   )
 
