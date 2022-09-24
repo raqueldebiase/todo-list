@@ -1,7 +1,7 @@
-function Botao (){
+function Botao (props){
 
     return (
-        <button onClick={() => {alert('click')}}>Click me</button>
+        <button onClick={props.onClickHandler}>{props.titulo}</button>
     )
 }
 
