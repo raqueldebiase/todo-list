@@ -1,8 +1,12 @@
-function Botao (props){
+function Botao ({estilo, titulo, onClickHandler}){
 
     return (
-        <button onClick={props.onClickHandler}>{props.titulo}</button>
-    )
+        <button 
+            style={estilo} 
+            onClick={onClickHandler}>
+            {titulo}
+        </button>
+    );
 }
 
 export default Botao;
