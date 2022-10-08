@@ -1,11 +1,13 @@
+import {Button} from './styles';
+
 function Botao ({estilo, titulo, onClickHandler}){
 
     return (
-        <button 
-            style={estilo} 
+        <Button 
+            
             onClick={onClickHandler}>
             {titulo}
-        </button>
+        </Button>
     );
 }
 

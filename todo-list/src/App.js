@@ -5,6 +5,7 @@ import FormularioTarefa from './FormulatioTarefa';
 
 
 function App(){
+  const [novaTarefa, setNovaTarefa] = useState('teste 2')
   const [tarefas, setTarefas] = useState (['passar roupa', 'lavar louça', 'arrumar a cama'])
 
   function removerTarefa(){
@@ -17,7 +18,8 @@ function App(){
   return(
     <div className='App'>
     <FormularioTarefa 
-      onTarefaAdicionada={() => setTarefas([...tarefas, 'teste'])}
+      onNovaTarefa={(e) => setNovaTarefa(e.target.value)}
+      onTarefaAdicionada={() => setTarefas([...tarefas, novaTarefa])}
       onTarefaRemovida={() => removerTarefa()}></FormularioTarefa>
       <ul>
         {
