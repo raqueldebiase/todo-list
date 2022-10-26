@@ -1,15 +1,27 @@
 .App {
   text-align: center;
-  margin: 100px 0 0 0;
+  margin: auto;
+  background-color: rgba(241, 151, 15, 0.362);
+  width: 50%;
+  height: 500px;
+  border-radius: 2%;
+  padding: 24px;
+  
   ul{
     list-style: none;
     text-align: center;
+    padding-inline-start: 0;
     li{
       background-color: pink;
       font-size: 16px;
       margin-top: 4px;
       color: black;
+      padding: 2px;
+      border-radius: 2px;
     }
   }
 }
 
+h1{
+  color: rgba(73, 73, 73, 0.795)
+}

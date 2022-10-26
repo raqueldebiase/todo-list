@@ -17,17 +17,18 @@ function App(){
 
   return(
     <div className='App'>
-    <FormularioTarefa 
-      onNovaTarefa={(e) => setNovaTarefa(e.target.value)}
-      onTarefaAdicionada={() => setTarefas([...tarefas, novaTarefa])}
-      onTarefaRemovida={() => removerTarefa()}></FormularioTarefa>
-      <ul>
-        {
-          tarefas.map(
-            (tarefa, key) => <li key={key}>{tarefa}</li>
-          )
-        }
-      </ul>
+      <h1> My To Do List</h1>
+      <FormularioTarefa 
+        onNovaTarefa={(e) => setNovaTarefa(e.target.value)}
+        onTarefaAdicionada={() => setTarefas([...tarefas, novaTarefa])}
+        onTarefaRemovida={() => removerTarefa()}></FormularioTarefa>
+        <ul>
+          {
+            tarefas.map(
+              (tarefa, key) => <li key={key}>{tarefa}</li>
+            )
+          }
+        </ul>
     </div>
   );
 
