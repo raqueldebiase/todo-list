@@ -17,7 +17,7 @@ function App(){
 
   return(
     <div className='App'>
-      <h1> My To Do List</h1>
+      <h1> My To-do List</h1>
       <FormularioTarefa 
         onNovaTarefa={(e) => setNovaTarefa(e.target.value)}
         onTarefaAdicionada={() => setTarefas([...tarefas, novaTarefa])}

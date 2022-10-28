@@ -1,8 +1,8 @@
-import Botao from "./Botao"
+import Botao from "./Botao";
 
 function FormularioTarefa ({onTarefaAdicionada, onTarefaRemovida, onNovaTarefa }) {
 
-    function hello(e){
+    function hello (e){
         return console.log(e.target.value);
     }
 
