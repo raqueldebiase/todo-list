@@ -10,3 +10,5 @@ Durante as aulas, tive a oportunidade de aprofundar meus conhecimentos sobre a b
 
 <img width="1026" alt="Captura de Tela 2022-10-28 às 07 32 08" src="https://user-images.githubusercontent.com/94414829/198520296-614c4549-89b0-4089-89b3-f29966166f7b.png">
 <img width="460" alt="Captura de Tela 2022-10-28 às 07 31 57" src="https://user-images.githubusercontent.com/94414829/198520316-66fde365-4a4c-4667-a4b1-ae2aae6c68b1.png">
+
+[screen-capture.webm](https://user-images.githubusercontent.com/94414829/198520531-fb93b654-6546-425d-9cdc-615a2d043be3.webm)
