@@ -1,1 +1,12 @@
 # todo-list
+
+My to-do list
+
+Projeto construído durante o workshop React Js, oferecido pela comunidade As Raparigas do Código (https://raparigasdocodigo.pt/ , acesso em 28/10/22).
+
+Durante as aulas, tive a oportunidade de aprofundar meus conhecimentos sobre a biblioteca React JS, assim como na criação de componentes, o uso de hooks de estilização com o styled-components. 
+
+
+
+<img width="1026" alt="Captura de Tela 2022-10-28 às 07 32 08" src="https://user-images.githubusercontent.com/94414829/198520296-614c4549-89b0-4089-89b3-f29966166f7b.png">
+<img width="460" alt="Captura de Tela 2022-10-28 às 07 31 57" src="https://user-images.githubusercontent.com/94414829/198520316-66fde365-4a4c-4667-a4b1-ae2aae6c68b1.png">
